@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import { NavBar } from '@/components/NavBar/NavBar'
 import { SectionCont } from '@/components/SectionCont/SectionCont';
 import { VideoContainer } from '@/components/VideoContainer/VideoContainer'
+import { ProjectCard } from '@/components/ProjectCard/ProjectCard';
 export const hookContext = React.createContext(''); 
 import React from 'react'
 
@@ -19,7 +20,15 @@ export default function Home() {
       <NavBar title={"Matthew Logan"} />
       <SectionCont id={"hero"} background={"background"}/>
       <SectionCont id={"about"} background={"background3"}/>
-      <SectionCont id={"projects"} />
+      <SectionCont id={"projects"}>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </SectionCont>
       <SectionCont id={"contact"} background={"background2"}/>
     </>
   )

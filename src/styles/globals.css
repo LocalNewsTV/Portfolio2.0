@@ -14,3 +14,6 @@ body {
 html {
   scrollbar-width: none;
 }
+a:hover {
+  cursor: pointer;
+}

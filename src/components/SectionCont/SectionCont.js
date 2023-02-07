@@ -9,7 +9,7 @@ export const SectionCont = ({id = "", background="", ...props}) => {
 
   return (
     <div id={id} className={"sectionCont"}>
-
+      {props.children}
     </div>
   )
 }

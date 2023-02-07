@@ -7,11 +7,11 @@ export const NavBar = ({title}) => {
   return (
   <div id="nav">
     <div className="nav-left">
-      <Logo title={title} />
+      <a className={"navLink"} href="#hero"><Logo title={title} /></a>
       <ul>
-        <a className="navLink" href="https://github.com/LocalNewsTV/weather-app">Repo</a>
-        <a className="navLink" href="https://github.com/LocalNewsTV">GitHub</a>
-        <a className="navLink" href="https://LocalNewsTV.github.io/">Portfolio</a>
+        <a className="navLink" href="#about">About Me</a>
+        <a className="navLink" href="#projects">Projects</a>
+        <a className="navLink" href="#contact">Contact Me</a>
       </ul>
     </div>
     <div className="nav-right">
