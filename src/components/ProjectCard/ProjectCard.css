@@ -67,5 +67,10 @@
     transform: scale(1.2);
     transition-duration: .5s;
   }
+  .DemoImage{
+    height: 350px;
+    width: 350px;
+    scale: calc(1);
+  }
 
 }
