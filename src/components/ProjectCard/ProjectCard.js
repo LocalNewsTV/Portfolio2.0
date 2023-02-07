@@ -18,8 +18,8 @@ const props =    {
 export const ProjectCard = () => {
 
   const showModal = (props) => {
-    setModal(props);
-    console.log(props);
+    // setModal(props);
+    document.getElementsByClassName('modalMain')[0].style.display = "flex";
   }
 
   return(

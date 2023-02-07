@@ -5,6 +5,7 @@ import '@/components/NavBar/NavBar.css';
 import '@/components/SectionCont/SectionCont.css';
 import '@/components/ProjectCard/ProjectCard.css';
 import '@/components/VideoContainer/VideoContainer.css';
+import '@/components/Modal/Modal.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
