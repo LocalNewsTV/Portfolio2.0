@@ -21,7 +21,6 @@
   width: 350px;
   overflow: hidden;
   box-sizing: border-box;
-
 }
 .contentTitle{
   display: flex;
@@ -66,11 +65,6 @@
     z-index: 2;
     transform: scale(1.2);
     transition-duration: .5s;
-  }
-  .DemoImage{
-    height: 350px;
-    width: 350px;
-    scale: calc(1);
   }
 
 }

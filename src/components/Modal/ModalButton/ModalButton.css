@@ -1,0 +1,7 @@
+.modalButton {
+  border: 1px solid black;
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+}
