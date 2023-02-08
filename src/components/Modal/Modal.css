@@ -13,7 +13,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkgreen !important;
   width: var(--modal-width);
   height: var(--modal-height);
   border: 1px solid black;
@@ -22,7 +21,7 @@
 .modalMain .top{
   background: rgba(0,0,0,.45);
   width: 100%;
-  height: calc(var(--modal-height) * .08);
+  height: calc(var(--modal-height) * .06);
   display: flex;
   justify-content:flex-end;
   padding-right: 10px;
@@ -30,7 +29,7 @@
 }
 .modalMain .modalExit{
   font-weight: 800;
-  font-size: 40px;
+  font-size: 30px;
   padding: 0;
   margin: 0;
   color:lightblue;
@@ -41,14 +40,15 @@
   display: flex;
   flex-direction: column;
   border-top: 1px solid black;
+  padding-bottom: 10px;
   width: 100%;
-  height: calc(var(--modal-height) * .8);
+  height: calc(var(--modal-height) * .84);
   box-sizing: border-box;
 }
 
 .modalMain .modalBottom{
   width: 100%;
-  height: calc(var(--modal-height) * .12);
+  height: calc(var(--modal-height) * .8);
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -71,9 +71,11 @@
   }
   .modalMain .modalCenter{
     flex-direction:row;
+    height: calc(var(--modal-height) * .84);
     /* align-items: center; */
   }
   .modalMain .modalBottom {
+    height: calc(var(--modal-height) * .12); 
     align-items: center;
   }
   .modalMain .modalButton {margin: 0 25px;}

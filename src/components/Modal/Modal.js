@@ -11,7 +11,7 @@ const props = {
   writeUp: {
     url: "https://localnewstv.github.io/<Repo>",
     github: "https://github.com/LocalNewsTV/<Repo>",
-    legacy: "",
+    legacy: "Hello",
     tools: "",
     summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet odio diam, quis cursus lacus pharetra non. Quisque faucibus eget odio vitae elementum. Nunc mattis lobortis lectus eu tristique. Phasellus eleifend justo vel viverra molestie. Duis ornare velit ac urna pulvinar finibus. Sed commodo interdum sem. Quisque tempus, ipsum vitae hendrerit laoreet, odio sem bibendum mauris, et elementum sapien elit id tortor. Ut non orci purus. Aenean sit amet rutrum ex. Morbi auctor quam at lacus hendrerit maximus. Sed eget felis eget ex semper tempus vestibulum sit amet sapien. Vestibulum finibus ac arcu eget tempus. Proin ut orci enim. Mauris sodales leo et quam semper, vel auctor tellus semper."
   },
