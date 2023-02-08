@@ -26,7 +26,7 @@ export const Modal = () => {
       <div className={"modalMain"}>
         <div className={"top"}>
           <input type={"button"}
-            className={"modalExit"}
+            className={"modalExit button"}
             value={"✖"}
             onClick={handleClick}
           />
