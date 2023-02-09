@@ -6,6 +6,7 @@ import { VideoContainer } from '@/components/VideoContainer/VideoContainer'
 import { Hero } from '@/components/Hero/Hero';
 import { ModalContext } from '@/contexts/ModalContext';
 import { ContactBox } from '@/components/ContactBox/ContactBox';
+import { AboutSection } from '@/components/AboutSection/AboutSection';
 export const hookContext = React.createContext(''); 
 import React from 'react'
 
@@ -24,7 +25,9 @@ export default function Home() {
       <SectionCont id={"hero"} background={"background"}>
         <Hero />
       </SectionCont>
-      <SectionCont id={"about"} background={"background3"} title={"About"}/>
+      <SectionCont id={"about"} background={"background3"} title={"About"}>
+        <AboutSection />
+      </SectionCont>
       <SectionCont id={"projects"} title={"Projects"} >
         <ModalContext />
       </SectionCont>

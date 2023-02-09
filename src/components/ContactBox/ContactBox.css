@@ -1,18 +1,41 @@
 .contactMain {
   display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 400px;
+  height: 350px;
   padding: 30px;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(66,99,66,.9);
   box-sizing: border-box;
+  border: 1px solid black;
+  
+}
+.contactMain ul {
+  list-style: none;
 }
 
-
-
+.contactMain a {
+  text-decoration: none;
+  color: white;
+  margin-left: 8px;
+}
+.contactBoxFluff {
+  display: none;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: rgba(168, 22, 22, 0.65);
+}
 
 @media only screen and (min-width: 600px) {
  .contactMain {
-  width: 600px;
-  height: 400px;
+  /* display: flex; */
+  width: 525px;
+  height: 325px;
  }
+.contactBoxFluff{
+  display: flex;
+}
+
 }

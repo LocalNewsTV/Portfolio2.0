@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "@/projects";
+import { projects } from "@/UpdatableInfo/projects";
 import { ProjectCard } from "@/components/ProjectCard/ProjectCard";
 import { Modal } from "@/components/Modal/Modal";
 
