@@ -3,8 +3,8 @@ import styles from '@/styles/Home.module.css'
 import { NavBar } from '@/components/NavBar/NavBar'
 import { SectionCont } from '@/components/SectionCont/SectionCont';
 import { VideoContainer } from '@/components/VideoContainer/VideoContainer'
-import { ProjectCard } from '@/components/ProjectCard/ProjectCard';
-import { Modal } from '@/components/Modal/Modal.js'
+import { Hero } from '@/components/Hero/Hero';
+import { ModalContext } from '@/contexts/ModalContext';
 export const hookContext = React.createContext(''); 
 import React from 'react'
 
@@ -17,13 +17,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <title>Matthew Logan | LocalNewsTV</title>
       </Head>
-      <Modal />
+      
       <VideoContainer video={"bgVid.m4v"} />
       <NavBar title={"Matthew Logan"} />
-      <SectionCont id={"hero"} background={"background"}/>
+      <SectionCont id={"hero"} background={"background"}>
+        <Hero />
+      </SectionCont>
       <SectionCont id={"about"} background={"background3"}/>
       <SectionCont id={"projects"}>
-        <ProjectCard />
+        <ModalContext />
       </SectionCont>
       <SectionCont id={"contact"} background={"background2"}/>
     </>

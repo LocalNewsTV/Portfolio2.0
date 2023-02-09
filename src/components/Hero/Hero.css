@@ -1,0 +1,8 @@
+.heroCont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 450px;
+  background: black;
+}

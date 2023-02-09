@@ -21,7 +21,7 @@
 .modalMain .top{
   background: rgba(0,0,0,.45);
   width: 100%;
-  height: calc(var(--modal-height) * .06);
+  height: calc(var(--modal-height) * .08);
   display: flex;
   justify-content:flex-end;
   padding-right: 10px;
@@ -48,7 +48,7 @@
 
 .modalMain .modalBottom{
   width: 100%;
-  height: calc(var(--modal-height) * .8);
+  height: calc(var(--modal-height) * .08);
   box-sizing: border-box;
   display: flex;
   align-items: center;

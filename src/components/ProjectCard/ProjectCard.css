@@ -27,8 +27,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 35px;
-
+  font-size: 26px;
+  white-space: nowrap;
   max-width: 80%;
 }
 

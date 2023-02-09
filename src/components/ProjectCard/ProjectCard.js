@@ -1,31 +1,15 @@
 import Image from "next/image";
 
-
-const props =    {
-        id: "Hello",
-        title: "Sample Title Text",
-        sourceImage: "/images/projectImg/128Final.webp",
-        description: "",
-            writeUp: {
-                url: "https://localnewstv.github.io/<Repo>",
-                github: "https://github.com/LocalNewsTV/<Repo>",
-                tools: "",
-                summary: ""
-            },
-    }
- 
-  
-export const ProjectCard = () => {
-
-  const showModal = (props) => {
-    // setModal(props);
+export const ProjectCard = ({props, setModal}) => {
+  const showModal = () => {
+    setModal(props);
     document.getElementsByClassName('modalMain')[0].style.display = "flex";
   }
 
   return(
     <div className={"projectCard"}>
       <div className={"projectImageCont"}>
-        <Image src={props.sourceImage} alt={props.title + " Image"} height={350} width={350}/>
+        <Image src={props.sourceImage[0]} alt={props.title + " Image"} height={350} width={350}/>
       </div>
       <div className={"contentTitle"}>
       <p className>{props.title}</p>

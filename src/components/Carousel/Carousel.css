@@ -20,13 +20,13 @@
   width: 30px;
   height: 30px;
 }
-.demoImage:hover {
-  cursor: zoom-in;
-  scale: calc(1.4);
-  transition: .6s, scale 600ms 1600ms; 
-}
+
 @media only screen and (min-width: 1100px){
-  .carousel {
-    margin-top: 30px;
+  .carousel { margin-top: 30px; }
+  .demoImage:hover { cursor: zoom-in; }
+  
+  .demoImage:active:hover {
+    scale: calc(1.4);
+    transition: .6s,; 
   }
 }

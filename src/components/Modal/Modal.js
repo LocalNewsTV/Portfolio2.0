@@ -1,23 +1,10 @@
 import React from "react";
-import Image from "next/image";
 import { ModalButton } from "./ModalButton/ModalButton";
 import { ImageSection } from "./ImageSection/ImageSection"
 import { WriteUpSection } from './WriteUpSection/WriteUpSection'
-const props = {
-  id: "Hello",
-  title: "Sample Title Text",
-  sourceImage: ["/images/projectImg/128Final.webp", "/images/projectImg/BlackJack.webp"],
-  description: "",
-  writeUp: {
-    url: "https://localnewstv.github.io/<Repo>",
-    github: "https://github.com/LocalNewsTV/<Repo>",
-    legacy: "Hello",
-    tools: "",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet odio diam, quis cursus lacus pharetra non. Quisque faucibus eget odio vitae elementum. Nunc mattis lobortis lectus eu tristique. Phasellus eleifend justo vel viverra molestie. Duis ornare velit ac urna pulvinar finibus. Sed commodo interdum sem. Quisque tempus, ipsum vitae hendrerit laoreet, odio sem bibendum mauris, et elementum sapien elit id tortor. Ut non orci purus. Aenean sit amet rutrum ex. Morbi auctor quam at lacus hendrerit maximus. Sed eget felis eget ex semper tempus vestibulum sit amet sapien. Vestibulum finibus ac arcu eget tempus. Proin ut orci enim. Mauris sodales leo et quam semper, vel auctor tellus semper."
-  },
-}
-export const Modal = () => {
-  const [modal, setModal] = React.useState(props);
+
+export const Modal = ({modal}) => {
+
   const handleClick = () => {
     document.getElementsByClassName('modalMain')[0].style.display = "none";
   }
