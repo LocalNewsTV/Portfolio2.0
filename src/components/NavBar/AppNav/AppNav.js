@@ -15,7 +15,12 @@ export const AppNav = () => {
   React.useEffect(()=>{
     (async () => {
       try{
-        const { data } = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${process.env.NEXT_PUBLIC_API_KEY}&q=YYJ&aqi=no`)
+        /**
+         * This is a free API Key, you could get your own API key
+         * at the link provided https://www.weatherapi.com/ 
+         */
+        const api = "7d98db344ac643c69ab184637222007";
+        const { data } = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${api}&q=YYJ&aqi=no`)
         setWeather(data);
       } catch(ex){
           console.log(ex);
