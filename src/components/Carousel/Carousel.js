@@ -7,13 +7,15 @@ export const Carousel = ({images}) => {
   }
   return (
     <div className={"carousel"}>
+      <div className={"carouselSpacer"}>
         <input 
           type={"button"} 
           value={"◀"}
           className={"button carouselButton"} 
           onClick={handleClick.bind(this,-1)}
-          disabled={image <= 0}
+          hidden={image <= 0}
         />
+      </div>
       <div className={"demoImage"}>
         <Image
           src={images[image]}
@@ -21,15 +23,16 @@ export const Carousel = ({images}) => {
           width={350}
           alt={"Project image"}
         />
-        </div>
+      </div>
+      <div className={"carouselSpacer"}>
         <input 
           type={"button"} 
           value={"▶"} 
           className={"button carouselButton"} 
           onClick={handleClick.bind(this,1)} 
-          disabled={image >= images.length -1}
+          hidden={image >= images.length -1}
         />
-
+      </div>
     </div>
   )
 }

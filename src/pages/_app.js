@@ -12,6 +12,7 @@ import '@/components/Modal/WriteUpSection/WriteUpSection.css';
 import '@/globals.css';
 import '@/components/Carousel/Carousel.css';
 import '@/components/Hero/Hero.css';
+import '@/components/ContactBox/ContactBox.css';
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
