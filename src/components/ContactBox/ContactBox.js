@@ -11,7 +11,6 @@ export const ContactBox = () => {
 
   const handleFluff = () => {
     let br = (tag) => document.getElementsByClassName(tag)[0].style;
-    console.log(br('contactBoxFluff'))
     br('contactBoxFluff').borderRadius = br('contactBoxFluff').borderRadius === '90px' ? '0' : '90px';
   }
   return (
@@ -19,7 +18,7 @@ export const ContactBox = () => {
       <div className={"contactBoxFluff"} onClick={handleFluff} />
       <div className={"contactList"}>
         <ul>
-          {contact.map((data, index) => {console.log(data); return  <ContactItem key={`${index}_contact`} {...data} />})}
+          {contact.map((data, index) =>  <ContactItem key={`${index}_contact`} {...data} />)}
         </ul>
       </div> 
     </div>
