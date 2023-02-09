@@ -3,9 +3,9 @@ export const Hero = () => {
   return (
     <div className={"heroCont"}>
       <Image 
-        src={'/images/projectImg/BlackJack.webp'}
+        src={'/HeroLogo.png'}
         width={350}
-        height={350}
+        height={225}
         alt={"Matthew Logan Logo"}
       />
     </div>

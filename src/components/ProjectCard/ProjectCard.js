@@ -12,7 +12,7 @@ export const ProjectCard = ({props, setModal}) => {
         <Image src={props.sourceImage[0]} alt={props.title + " Image"} height={350} width={350}/>
       </div>
       <div className={"contentTitle"}>
-      <p className>{props.title}</p>
+      <p>{props.title}</p>
       </div>
       <div className={"buttonCont"}>
         <input 

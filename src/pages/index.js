@@ -17,14 +17,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <title>Matthew Logan | LocalNewsTV</title>
       </Head>
-      
+  
       <VideoContainer video={"bgVid.m4v"} />
       <NavBar title={"Matthew Logan"} />
       <SectionCont id={"hero"} background={"background"}>
         <Hero />
       </SectionCont>
-      <SectionCont id={"about"} background={"background3"}/>
-      <SectionCont id={"projects"}>
+      <SectionCont id={"about"} background={"background3"} title={"About"}/>
+      <SectionCont id={"projects"} title={"Projects"} >
         <ModalContext />
       </SectionCont>
       <SectionCont id={"contact"} background={"background2"}/>

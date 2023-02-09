@@ -16,9 +16,7 @@ export const AppNav = () => {
     (async () => {
       const api = process.env.NEXT_PUBLIC_API_KEY;
       try{
-        console.log(api);
         const { data } = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${api}&q=YYJ&aqi=no`)
-        console.log(data.current.condition.icon);
         setWeather(data);
       } catch(ex){
           console.log(ex);
@@ -37,13 +35,7 @@ export const AppNav = () => {
           width={40}
           height={40}
          />
-        : <Image
-        alt="Weather Icon"
-          src={""}
-          width={64}
-          height={64}
-          />
-        
+        : <></>
         }
         
       </div>
