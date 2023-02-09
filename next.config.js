@@ -5,8 +5,6 @@ const nextConfig = {
   assetPrefix: isProd ? '/LocalNewsTV.github.io/' : '',
   images: {
     unoptimized: true,
-  },
-  images: {
     domains: ["cdn.weatherapi.com"]
   },
 }
