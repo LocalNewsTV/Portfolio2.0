@@ -1,3 +1,29 @@
+
+const wittyDescriptions = []
+const soundExciting = (project) => {
+    return `Exciting ${project} Description`
+}
+try {
+    for(project of projects){
+    wittyDescriptions.push(soundExciting(project));
+  }
+} catch (ex) {
+  console.log()
+}
+
+
+
+
+
+const project = [];
+
+
+image.png
+
+
+
+
+
 /****************************************************************************
  * 
  * All the projects with their writeups are contained here so new ones can 

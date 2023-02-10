@@ -33,7 +33,10 @@ export const Modal = ({modal}) => {
           ? <ModalButton value={"Demo"} url={modal.writeUp.url}/> 
           : <></>}
           {modal.writeUp.download 
-          ? <ModalButton value={"Demo"} url={modal.writeUp.download}/> 
+          ? <ModalButton value={"Download"} url={modal.writeUp.download}/> 
+          : <></>}
+          {modal.writeUp.fullPage 
+          ? <ModalButton value={"Read More"} url={modal.writeUp.fullPage}/> 
           : <></>}
         </div>
       </div>
