@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgb(59,59,56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 12px;
+}
+.footer p{
+  margin: 0;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}

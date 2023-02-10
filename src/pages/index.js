@@ -9,6 +9,7 @@ import { ContactBox } from '@/components/ContactBox/ContactBox';
 import { AboutSection } from '@/components/AboutSection/AboutSection';
 export const hookContext = React.createContext(''); 
 import React from 'react'
+import { Footer } from '@/components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <SectionCont id={"contact"} background={"background2"} title={"Contact"}>
         <ContactBox />
       </SectionCont>
+      <Footer />
     </>
   )
 }

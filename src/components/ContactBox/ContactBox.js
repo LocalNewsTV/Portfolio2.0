@@ -14,8 +14,8 @@ export const ContactBox = () => {
     br('contactBoxFluff').borderRadius = br('contactBoxFluff').borderRadius === '90px' ? '0' : '90px';
   }
   return (
-    <div className={"contactMain contentContainer"}>
-      <div className={"contactBoxFluff"} onClick={handleFluff} />
+    <div className={"contactMain contentContainer container-primary-tint"}>
+      <div className={"contactBoxFluff container-accent-tint"} onClick={handleFluff} />
       <div className={"contactList"}>
         <ul>
           {contact.map((data, index) =>  <ContactItem key={`${index}_contact`} {...data} />)}

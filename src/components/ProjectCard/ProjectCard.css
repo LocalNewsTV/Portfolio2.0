@@ -68,7 +68,6 @@
     opacity: 60%;
   }
   .projectCard:hover{ 
-    background-color: tan; 
     opacity: 100%;
     z-index: 2;
     transform: scale(1.2);

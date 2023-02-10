@@ -7,20 +7,19 @@ export const ProjectCard = ({props, setModal}) => {
   }
 
   return(
-    <div className={"projectCard"}>
+    <div className={"projectCard container-secondary"}>
       <div className={"projectImageCont"}>
         <Image src={props.sourceImage[0]} alt={props.title + " Image"} height={350} width={350}/>
       </div>
       <div className={"contentTitle"}>
-      <p>{props.title}</p>
+      <p className={"font-secondary"}>{props.title}</p>
       </div>
       <div className={"buttonCont"}>
         <input 
           type={"button"} 
-          className={"seeMore"} 
+          className={"seeMore button"} 
           value={"See More"}
           onClick={showModal.bind(this, props)
-          
           } />
       </div>
     </div>

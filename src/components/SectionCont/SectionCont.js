@@ -11,8 +11,8 @@ export const SectionCont = ({id = "", background="", title="", ...props}) => {
     <div id={id} className={"sectionMain"}>
       {title 
       ? <div className={"sectionTitleBox"} >
-          <div className={"sectionTitle"}>
-            <h2>{title}</h2>
+          <div className={"sectionTitle container-primary-tint"}>
+            <h2 className={"header-primary"}>{title}</h2>
           </div>
         </div> 
       : <></>}

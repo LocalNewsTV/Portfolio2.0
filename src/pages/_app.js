@@ -14,7 +14,7 @@ import '@/components/Carousel/Carousel.css';
 import '@/components/Hero/Hero.css';
 import '@/components/ContactBox/ContactBox.css';
 import '@/components/AboutSection/AboutSection.css';
-
+import '@/components/Footer/Footer.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

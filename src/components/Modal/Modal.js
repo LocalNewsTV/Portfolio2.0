@@ -10,16 +10,16 @@ export const Modal = ({modal}) => {
   }
   return (
     <div>
-      <div className={"modalMain"}>
+      <div className={"modalMain container-secondary"}>
         <div className={"top"}>
           <input type={"button"}
-            className={"modalExit button"}
+            className={"modalExit button-secondary"}
             value={"✖"}
             onClick={handleClick}
           />
         </div>
         <div className={"modalCenter"}>
-          <ImageSection src={modal.sourceImage} title={modal.title} tools={modal.tools} />
+          <ImageSection src={modal.sourceImage} title={modal.title} tools={modal.writeUp.tools} />
           <WriteUpSection description={modal.writeUp.summary} />
         </div>
         <div className={"modalBottom"}>

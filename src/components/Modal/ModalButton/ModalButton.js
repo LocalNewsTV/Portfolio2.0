@@ -6,7 +6,7 @@ export const  ModalButton = ({value, url}) => {
     <input
       type={"button"}
       value={value}
-      className={"modalButton button"}
+      className={"modalButton button button-secondary"}
       onClick={handleClick.bind(this, url)}
     />
   )

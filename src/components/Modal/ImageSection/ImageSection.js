@@ -7,7 +7,7 @@ export const ImageSection = ({src, title, tools}) => {
     <div className="imageSection">
       <Carousel images={src} />
       <h2>{title || ""}</h2>
-      <p>{tools || "Writing about Tools"}</p>
+      <p>{tools || ""}</p>
     </div>
   )
 }
