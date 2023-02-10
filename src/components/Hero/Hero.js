@@ -8,6 +8,7 @@ export const Hero = () => {
         height={225}
         alt={"Matthew Logan Logo"}
       />
+      <h1>Page Under Construction</h1>
     </div>
   )
 }
