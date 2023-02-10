@@ -5,7 +5,7 @@ const details = {
     scale: .4,
     alt: "Matthew Logan",
     src: "/images/myself.webp",
-    caption: "Hello"
+    caption: "Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello "
   },
   writeup: {
     beginnings: "<p>Hello! I'm Matthew Logan, before attending Camosun College for the Information and Computer Systems program, I was a red seal chef for over 8 years, working in Victoria BC's hospitality sector. </p>",
