@@ -30,6 +30,7 @@
   }
   .writeUp{
     display: flex;
+    flex-direction: column;
     max-height: 400px;
     width: 100%;
     padding: 15px;

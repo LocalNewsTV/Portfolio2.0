@@ -20,7 +20,7 @@ export const Modal = ({modal}) => {
           />
         </div>
         <div className={"modalCenter"}>
-          <ImageSection src={modal.sourceImage} title={modal.title} tools={modal.tools} />
+          <ImageSection modal={modal} />
           <WriteUpSection description={modal.writeUp.summary} />
         </div>
         <div className={"modalBottom"}>
