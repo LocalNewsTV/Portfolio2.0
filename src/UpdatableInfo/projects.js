@@ -1,142 +1,279 @@
-/****************************************************************************
- * 
- * All the projects with their writeups are contained here so new ones can 
- * easily be added with this template object 
- * 
- *****************************************************************************/
 /*
-    {
-        id: "",
-        title: "",
-        sourceImage: "/images/projectImg/<File>",
-        description: "",
-            writeUp: {
-                url: "https://localnewstv.github.io/<Repo>",
-                github: "https://github.com/LocalNewsTV/<Repo>",
-                legacy: "",
-                tools: "",
-                summary: ""
-            },
-    },
- */
-    export const projects = [
-      {
-          id: "passwordGenerator",
-          title: "Password Generator",
-          sourceImage: ["/images/projectImg/PasswordGenerator.webp"],
-          description: "Javascript class for scrambling passwords",
-              writeUp: {
-                  url: "https://localnewstv.github.io/PasswordGenerator",
-                  github: "https://github.com/LocalNewsTV/PasswordGenerator",
-                  legacy: "",
-                  tools: "ES6 Classes, HTML, CSS",
-                  summary: "A simple tool for people to use stronger passwords while remembering weaker versions. Application can help those with weak passwords avoid becoming victims of brute forcing attacks. This class can be imported or used in other programs. A simple web page was created to demonstrate functionality. You can remember 'Password1' but use 'P2hBJLd$K'"
-              },
-      },
-      {
-          id: "pokeHelper",
-          title: "Pokemon Weakness Helper",
-          sourceImage: ["/images/projectImg/PokeHelper.webp"],
-          description: "",
-              writeUp: {
-                  url: "https://localnewstv.github.io/PokeHelper",
-                  github: "https://github.com/LocalNewsTV/PokeHelper",
-                  legacy: "",
-                  tools: "JS, jQuery, HTML, CSS",
-                  summary: "Suitable for parents or those who havent played in a long time, using the PokeAPI this app charts type effectiveness so you can always make your attacks supereffective"
-              },
-      },
-      {
-          id: "blackjack",
-          title: "BlackJack",
-          sourceImage: ["/images/projectImg/BlackJack.webp"],
-          description: "",
-          writeUp: {            
-              url: "https://localnewstv.github.io/BlackJack",
-              github: "https://github.com/LocalNewsTV/BlackJack",
-              legacy: "",
-              tools: "JavaScript, JQuery, HTML/CSS",
-              summary: `The classic game of 21<br>
-              Using JS a deck of cards is generated and played from, a deck tally is added so a player can attempt to count cards if they so choose. The app follows the standard rules for a game of BlackJack with the round being Player Vs Dealer.`,
-          }
-      },
-      {
-          id: "weatherApp",
-          title: "Weather Application",
-          sourceImage: ["/images/projectImg/WeatherApp.webp"],
-          description: "Weather Application",
-          writeUp: {
-              url: "https://localnewstv.github.io/WeatherApp",
-              github: "https://github.com/LocalNewsTV/WeatherApp",
-              legacy: "",
-              tools: "JavaScript, JQuery, HTML/CSS",
-              summary: `With the browser standard of having search engines coded into the address bar, the days of having Google as your homepage are no more! I created this app using the free API from 'WeatherApi.com' and used a JS/JQuery to generate the page design into a template HTML file.`,
-          }
-      },
-      {
-          id: "senseWeather",
-          title: "Sense Hat Weather",
-          sourceImage: ["/images/projectImg/piWeather.webp"],
-          description: "Python Script for Sense Weather",
-          writeUp: {
-              url: "n/a",
-              github: "https://github.com/LocalNewsTV/HomeTemp",
-              legacy: "",
-              tools: "Python, Raspberry Pi, Sense Hat",
-              summary: `Small Script that goes off on 15 minute intervals between designated 'safe hours', the script relays the current Weather outdoors, and the humidity in the room and displays them onto the 8x8px SenseHat LED board`
-          }
-      },
-      {
-          id: "fakeStore",
-          title: "128 Final Project",
-          sourceImage: ["/images/projectImg/128Final.webp"],
-          description: "Thumbnail or Final Project",
-          writeUp: {
-              url: "https://localnewstv.github.io/128Final-FakeStoreFront",
-              github: "https://github.com/LocalNewsTV/128Final-FakeStoreFront",
-              legacy: "",
-              tools: "JavaScript, JQuery, HTML/CSS, Bootstrap",
-              summary: `Utilizing the skills gained in our Web Scripting course, the final project consisted of creating a mobile responsive web Application simulating the online experience. User information is handled with a form and parsed through regex validators to ensure accuracy before being sent off. Store inventory is passed through an API call to the 'Fake Store API' and laid out into cards.`,
-          }
-      },
-      {
-          id: "browserCombat",
-          title: "Browser Combat Simulator",
-          sourceImage: ["/images/projectImg/CombatSimulator.webp"],
-          description: "Thumbnail for Browser Combat Simulator",
-          writeUp: {
-              url: "https://localnewstv.github.io/BrowserCombatSimulator",
-              github: "https://github.com/LocalNewsTV/BrowserCombatSimulator",
-              legacy: "",
-              tools: "JavaScript, JQuery, HTML/CSS",
-              summary: `Made during my reading week, the purpose of this project was to further my understanding of JavaScripts ES6 Classes/Inheritance. Using a classic text box with button inputs, it is nostalgic of an early era of videogames.`,
-          }
-      },
-      {
-          id: "ticTacToe",
-          title: "Tic Tac Toe",
-          sourceImage:[ "/images/projectImg/ttt.webp"],
-          description: "Thumbnail for Tic Tac Toe",
-          writeUp: {
-              url: "https://localnewstv.github.io/TicTacToe",
-              github: "https://github.com/LocalNewsTV/TicTacToe",
-              legacy: "",
-              tools: "JavaScript, HTML",
-              summary: `A Classic game of Tic Tac Toe made in JavaScript. The game has a functional CPU Partner to play against, with flow based strategy. There is an updating scoreboard so players can show off their wins (or losses).`,
-          }
-      },
 
-      {
-          id: "nierAutomata",
-          title: "Nier Automata Fanpage",
-          sourceImage: ["/images/projectImg/nierAutomata.webp"],
-          description: "Thumbnail for Nier Fanpage",
-              writeUp: {
-                  url: "https://localnewstv.github.io/Single-Page-Fanpage/",
-                  github: "https://github.com/LocalNewsTV/Single-Page-Fanpage/",
-                  legacy: "",
-                  tools: "HTML/CSS",
-                  summary: "Midterm assignment for Year one, Web Fundamentals. The goal was to create a mobile-responsive 4-section webpage to showcase our skills learned through the semester."
-              },
+  /////////////
+  {
+    id: "",
+    title: "",
+    tools: "",
+    sourceImage: [
+        "/images/projectImg//.webp",
+        "/images/projectImg//.webp",
+        "/images/projectImg//.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/<Repo>",
+        github: "https://github.com/LocalNewsTV/<Repo>",
+        legacy: "",
+        download: "",
+        readmore: "",
+    },
+  },
+*/
+// https://github.com/LocalNewsTV/InClass-ICS223
+export const projects = [
+
+  /////////////
+  {
+    id: "",
+    title: "Swift Inventory App",
+    tools: "Swift, SwiftUI",
+    sourceImage: [
+        "/images/projectImg/SwiftLabOne/SwiftLabOne1.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne2.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne3.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne4.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        github: "https://github.com/LocalNewsTV/Swift-Inventory-App",
+    },
+  },
+  /////////////
+  {
+    id: "platformer",
+    title: "Unity Platformer",
+    tools: "C#, Unity",
+    sourceImage: [
+        "/images/projectImg/MiniPlatformer/Platformer1.webp",
+        "/images/projectImg/MiniPlatformer/Platformer2.webp",
+        "/images/projectImg/MiniPlatformer/Platformer3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        github: "https://github.com/LocalNewsTV/InClass-ICS223",
+        //TODO:
+        download: "",
+    },
+  },
+    /////////////
+    {
+      id: "fps",
+      title: "Unity First Person Shooter",
+      tools: "C#, Unity",
+      sourceImage: [
+          "/images/projectImg/fps/fps1.webp",
+          "/images/projectImg/fps/fps2.webp",
+          "/images/projectImg/fps/fps3.webp"
+      ],
+      writeUp: {
+          summary: [
+            "",
+          ],
       },
-  ]
+      links: {
+          github: "https://github.com/LocalNewsTV/ICS223-FPS",
+          //TODO:
+          download: "",
+      },
+    },
+      /////////////
+  {
+    id: "todoList",
+    title: "Todo List",
+    tools: "MongoDB, ExpressJS, ReactJS, Node",
+    sourceImage: [
+        "/images/projectImg/TodoList/Todolist1.webp",
+        "/images/projectImg/TodoList/todolist2.webp",
+        "/images/projectImg/TodoList/todolist3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/home-to-do-list",
+        github: "https://github.com/LocalNewsTV/home-to-do-list",
+    },
+  },
+  /////////////
+  {
+    id: "weatherApp",
+    title: "Weather Application 2.0",
+    tools: "ReactJS, Axios, weatherapi.com",
+    sourceImage: [
+        "/images/projectImg/WeatherApp/Weather1.webp",
+        "/images/projectImg/WeatherApp/Weather2.webp",
+        "/images/projectImg/WeatherApp/Weather3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/weather-app",
+        github: "https://github.com/LocalNewsTV/weather-app",
+        legacy: "https://Localnewstv.github.io/WeatherApplication",
+    },
+  },
+  /////////////
+  {
+    id: "chatClient",
+    title: "Chat Client",
+    tools: "Java, JavaGUI, NetBeans",
+    sourceImage: [
+        "/images/projectImg/ChatClient/ChatClient1.webp",
+        "/images/projectImg/ChatClient/ChatClient2.webp",
+        "/images/projectImg/ChatClient/ChatClient3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        github: "https://github.com/LocalNewsTV/ChatServerClient",
+        //TODO:
+        download: "",
+    },
+  },
+  /////////////
+  {
+    id: "passwordHasher",
+    title: "Password Hasher 2.0",
+    tools: "ReactJS, ES6 JavaScript, Create-react-app",
+    sourceImage: [
+        "/images/projectImg/PasswordHasher/PasswordHasherNew1.webp",
+        "/images/projectImg/PasswordHasher/PasswordHasherNew2.webp",
+        "/images/projectImg/PasswordHasher/PasswordHasherOld.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/password-hasher",
+        github: "https://github.com/LocalNewsTV/password-hasher",
+        legacy: "https://localnewstv.github.io/PasswordGenerator",
+    },
+  },
+  
+  /////////////
+  {
+    id: "portfolioOld",
+    title: "Portfolio 1.0",
+    tools: "ES6 JavaScript, HTML/CSS, JQuery",
+    sourceImage: [
+        "/images/projectImg/PortfolioOld/PortfolioOld1.webp",
+        "/images/projectImg/PortfolioOld/PortfolioOld2.webp",
+        "/images/projectImg/PortfolioOld/PortfolioOld3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/old-portfolio",
+        github: "https://github.com/LocalNewsTV/old-portfolio",
+    },
+  },
+  /////////////
+  {
+    id: "pokeWeakness",
+    title: "Pokemon Assistant",
+    tools: "JQuery, ES6 JavaScript, CSS/HTML, PokeAPI",
+    sourceImage: [
+        "/images/projectImg/PokemonWeakness/PokemonWeakness1.webp",
+        "/images/projectImg/PokemonWeakness/PokemonWeakness2.webp",
+        "/images/projectImg/PokemonWeakness/PokemonWeakness3.webp"
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/PokeHelper",
+        github: "https://github.com/LocalNewsTV/PokeHelper",
+    },
+  },
+  /////////////
+  {
+    id: "blackjack",
+    title: "Blackjack",
+    tools: "ES6 JavaScript, HTML/CSS",
+    sourceImage: [
+        "/images/projectImg/Blackjack/Blackjack1.webp",
+        "/images/projectImg/Blackjack/Blackjack2.webp",
+    ],
+    writeUp: {
+        summary: [
+          "",
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/BlackJack",
+        github: "https://github.com/LocalNewsTV/BlackJack",
+        legacy: "",
+    },
+  },
+  /////////////
+  {
+    id: "iCS228Final",
+    title: "ICS228 Final",
+    tools: "JQuery, ES6 JavaScript, HTML/CSS, Bootstrap, FakeStoreAPI",
+    sourceImage: [
+        "/images/projectImg/128Final/128final1.webp",
+        "/images/projectImg/128Final/128final2.webp",
+        "/images/projectImg/128Final/128final3.webp"
+    ],
+    writeUp: {
+        summary: [
+          `Culiminating the skills learned from a semester of Web Scripting, The final project consisted of creating a mobile responsive web application to simulate an Online Shopping experience.`,
+          
+          `User Information was handled with a form that does client side regex parsing to ensure accuracy before being sent off. Along with some custom made products, Store Inventory is passed in from an API request to the 'Fake Store API', then arranged into cards using Bootstrap.`
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/128Final-FakeStoreFront",
+        github: "https://github.com/LocalNewsTV/128Final-FakeStoreFront",
+    },
+  },
+  /////////////
+  {
+    id: "",
+    title: "Browser Combat Simulator",
+    tools: "ES6 JavaScript",
+    sourceImage: [
+        "/images/projectImg/CombatSimulator/CombatSimulator1.webp",
+        "/images/projectImg/CombatSimulator/CombatSimulator2.webp"
+    ],
+    writeUp: {
+        summary: [
+          `This is one of the first projects I completed outside of school since starting the ICS program at Camosun College. I created Browser Combat Simulator over the reading break after learning about ES6 Classes in my Web Scripting Class, and decided to play around with class interactions.`,
+
+          `The purpose of the project was to further my understanding of ES6 classes and Inheritance. Nostalgic of earlier eras of video games like Kingdom of Loathing, I created this text adventure where you fight a "Gremelkin" [Archaic Term for Cat].`
+        ],
+    },
+    links: {
+        demo: "https://localnewstv.github.io/BrowserCombatSimulator",
+        github: "https://github.com/LocalNewsTV/BrowserCombatSimulator",
+    },
+  },
+]

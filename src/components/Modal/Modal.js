@@ -7,6 +7,7 @@ export const Modal = ({modal}) => {
 
   const handleClick = () => {
     document.getElementsByClassName('modalMain')[0].style.display = "none";
+    document.body.style.overflow = '';
   }
   return (
     <div>
@@ -19,24 +20,24 @@ export const Modal = ({modal}) => {
           />
         </div>
         <div className={"modalCenter"}>
-          <ImageSection src={modal.sourceImage} title={modal.title} tools={modal.writeUp.tools} />
+          <ImageSection src={modal.sourceImage} title={modal.title} tools={modal.tools} />
           <WriteUpSection description={modal.writeUp.summary} />
         </div>
         <div className={"modalBottom"}>
-          {modal.writeUp.github
-          ? <ModalButton value={"Github"} url={modal.writeUp.github} />
+          {modal.links.github
+          ? <ModalButton value={"Github"} url={modal.links.github} />
           :<></>}
-          {modal.writeUp.legacy 
-          ? <ModalButton value={"Old Demo"} url={modal.writeUp.legacy} />
+          {modal.links.legacy 
+          ? <ModalButton value={"Legacy Demo"} url={modal.links.legacy} />
           :<></>}
-          {modal.writeUp.url 
-          ? <ModalButton value={"Demo"} url={modal.writeUp.url}/> 
+          {modal.links.demo
+          ? <ModalButton value={"Demo"} url={modal.links.demo}/> 
           : <></>}
-          {modal.writeUp.download 
-          ? <ModalButton value={"Download"} url={modal.writeUp.download}/> 
+          {modal.links.download 
+          ? <ModalButton value={"Download"} url={modal.links.download}/> 
           : <></>}
-          {modal.writeUp.fullPage 
-          ? <ModalButton value={"Read More"} url={modal.writeUp.fullPage}/> 
+          {modal.links.readmore 
+          ? <ModalButton value={"Read More"} url={modal.links.readmore}/> 
           : <></>}
         </div>
       </div>
