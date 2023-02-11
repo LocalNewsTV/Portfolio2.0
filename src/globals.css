@@ -3,40 +3,40 @@
   --button-secondary: ;
   --button-accent: ;
 
-  --text-primary: white;
-  --text-secondary: pink;
+  --text-primary: rgb(250, 243, 237);
+  --text-secondary: rgb(30,30,30);
   --text-accent: orange;
 
-  --header-primary: green;
-  --header-secondary: red;
-  --header-accent: cyan; 
+  --header-primary: rgb(145, 241, 80);
+  --header-secondary: rgb(154, 106, 243);
+  --header-accent: rgb(255, 255, 255); 
 
-  --container-tint-primary: 0.7;
+  --container-tint-primary: 0.82;
   --container-tint-secondary: 0.5;
-  --container-tint-accent: 0.5;
+  --container-tint-accent: 0.45;
 
-  --container-primary-tint: rgba(102,153,102, var(--container-tint-primary));
-  --container-secondary-tint: rgba(102,102,153, var(--container-tint-secondary));
-  --container-accent-tint: rgba(00,56,26, var(--container-tint-accent));
+  --container-primary-tint: rgba(56,56,56, var(--container-tint-primary));
+  --container-secondary-tint: rgba(30,30,30, var(--container-tint-secondary));
+  --container-accent-tint: rgba(255,10,50, var(--container-tint-accent));
 
-  --container-primary: rgba(102,153,102);
-  --container-secondary: rgba(102,102,153);
-  --container-accent: rgba(00,56,26);
-
+  --container-primary: rgba(56,56,58);
+  --container-secondary: rgba(152,152,203);
+  --container-accent: rgb(138, 108, 194);
 }
+.sectionTitle .header-primary {color: white !important;}
+.svg { fill: red;}
 .button-primary { 
   background-color: blue;
   color: var(--text-primary) !important;
 }
 .button-secondary { 
-  background-color: blue;
+  background-color: rgb(97, 76, 138);
   color: var(--text-primary) !important;
 }
 .button-accent { 
   background-color: blue;
   color: var(--text-primary) !important;
 }
-
 .font-primary { color: var(--text-primary) !important;}
 .font-secondary { color: var(--text-secondary)!important;}
 .font-accent { color: var(--text-accent)!important;}
@@ -57,7 +57,7 @@
   background-color: var(--container-accent)!important;
   color: var(--text-accent)!important;
 }
-
+.navLink:hover {color: orange; transition: .4s;}
 span { color: var(--text-accent)}
 .button
 .project-button
@@ -65,7 +65,8 @@ span { color: var(--text-accent)}
 /* a:hover ,button:hover{ color: var(--text-accent) !important;} */
 a:hover ,button:hover, .button-secondary:hover{
   cursor: pointer; 
-  color: var(--text-accent) !important;
+  color: var(--text-secondary) !important;
+  /* background-color: var(--button-secondary) !important; */
   transition: .4s;
 }
 a:hover, .button:hover, button:hover {cursor: pointer;}

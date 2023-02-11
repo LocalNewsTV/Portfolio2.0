@@ -19,6 +19,10 @@
   text-decoration: none;
   color: white;
   margin-left: 8px;
+  font-size: 13px;
+}
+.contactMain a:hover {
+  color: orange;
 }
 .contactBoxFluff {
   display: none;

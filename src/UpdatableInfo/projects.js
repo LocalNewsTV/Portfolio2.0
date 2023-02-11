@@ -24,7 +24,7 @@
     },
   },
 */
-// https://github.com/LocalNewsTV/InClass-ICS223
+
 export const projects = [
 
   /////////////
@@ -40,7 +40,8 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "For my Mobile Applications class the first half of the semester had us creating a simple inventory application using Swift/SwiftUI",
+          `This class has a steep learning curve as we were thrown into the deep end of swift by having our first introduction being diving right into the SwiftUI Library.`
         ],
     },
     links: {
@@ -59,13 +60,12 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "Short and simple platformer created in my Gaming and Graphics Concepts course, the original intent was to have 4 platforms and a double jump mechanic. With enthusiasm and an open schedule I dove into the simple assignment and expanded on it well beyond the scope. It was a fun experience making small assets and a simple compact Platforming design",
         ],
     },
     links: {
         github: "https://github.com/LocalNewsTV/InClass-ICS223",
-        //TODO:
-        download: "",
+        download: "https://drive.google.com/file/d/1_qeUVRPaHvqhCrsbohTwEJnKYOQpGh5Z/view?usp=share_link",
     },
   },
     /////////////

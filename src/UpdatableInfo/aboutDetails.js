@@ -23,8 +23,8 @@ const details = {
     hobbies: [
       `I divide my spare time between exploring the offerings of the Pacific Northwest, creating small-scale web applications, rock climbing, and single-origin pourover coffee.`
     ],
-    favouriteTools: ["ES6 JavaScript, React, Python, MongoDB, VSC, Firefox Developer"],
-    education: ["Camosun College", "Information Computer Systems Diploma (late 2023)."],
+    favouriteTools: ["ES6 JavaScript, React, Python, MongoDB, VSC"],
+    education: ["Camosun College Information Computer Systems Diploma [August 2023]."],
   }
 }
 

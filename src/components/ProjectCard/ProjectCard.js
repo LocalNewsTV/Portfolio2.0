@@ -18,7 +18,7 @@ export const ProjectCard = ({props, setModal}) => {
       <div className={"buttonCont"}>
         <input 
           type={"button"} 
-          className={"seeMore button"} 
+          className={"seeMore button button-secondary"} 
           value={"See More"}
           onClick={showModal.bind(this, props)
           } />
