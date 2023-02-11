@@ -3,7 +3,7 @@ import Image from "next/image";
 export const ProjectCard = ({props, setModal}) => {
   const showModal = () => {
     setModal(props);
-    document.getElementsByClassName('modalMain')[0].style.display = "flex";
+    document.getElementById('modalOverlay').style.display = "flex";
     document.body.style.overflow = 'hidden';
   }
 

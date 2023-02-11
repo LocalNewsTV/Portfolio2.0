@@ -80,13 +80,14 @@ export const projects = [
       ],
       writeUp: {
           summary: [
-            "",
+            "Currently a work in progress in my Gaming and Graphics Concepts course, we are working on Creating a First Person Shooter style game to introduce us to using the Unity Engine",
+            `The Game implementation uses a small map that spawns some Enemy characters that wander around using SphereCasting to avoid collisions with the walls, and fire 'lasers' at the player character. The Player character shoots using Raycasting bullets to take down the enemy.`,
+            `Note: You will need to Alt+F4 to exit.`
           ],
       },
       links: {
           github: "https://github.com/LocalNewsTV/ICS223-FPS",
-          //TODO:
-          download: "",
+          download: "https://drive.google.com/drive/folders/1ZiRpXBVw27qUyBiwAbNHSr9OrOHHdi8o?usp=share_link",
       },
     },
       /////////////
@@ -101,7 +102,9 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "A classic project from a starting developer. I created the todo list near the end of my semester when I was taking a database management course at Camosun College",
+
+          `This application utilizes the MERN Stack in its design, for its application I host the build and Express server off my Raspberri Pi at home so serve as my connection my MongoDB cluster. The demo provided below doesn't have access to my database, but with some additional coding, I have implemented an 'offline' mode for you to use its functionality`
         ],
     },
     links: {
@@ -121,7 +124,9 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "Since google exists in the address bar, the days of the google homepage are no more. Needing something to replace it, I created my own home application that I originally hosted on my Raspberry Pi before I deployed it as a Github page for others to enjoy. The legacy version was simple, it gave the time at the moment of the search, the weather and some general stats that a thermostat would.",
+          `A feature I enjoy about this application is the conditional backgrounds, based on current weather condition and time, The background will update to match the mood from a selection of images I've taken over the years.`,
+          `I recreated the Weather app in early 2023 using React instead of JQuery, utilizing React hooks I was able to make the time self updating, as well as refresh its time a new locale was searched for (An issue I attempted to implement in the original design)`,
         ],
     },
     links: {
@@ -142,7 +147,8 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "During my Networking course we learned about socket connections and network protocols. One of the examples we were given was Java sockets, and paired with making Java GUI applications in my SENG class, I created both a chat client and server that can be deployed on a local network",
+          `The client application stores messages locally in a queue to maintain a message history, and reduce the need for large packages being sent from the server. The server end of the application binds to any address usable by the host PC, and stores a user set password for authentication. The server also maintains a smaller message queue that is sent to new client connections`
         ],
     },
     links: {
@@ -163,7 +169,9 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "Making and managing passwords isn't many peoples favourite thing. Bad passwords count for a large percentage of security breaches.",
+          `No matter how good your security policies, there will always be one employee considered a great risk, and so I created this one way hashing algorithm for people who don't want to rememeber long tedious passwords. The algorithm can take a generic password like 'Password1' and turn it into something more secure. It furthers its hashing by optionally allowing users to enter the site they're using the generic password for, giving a unique hash for each website.`,
+          `I'm not trying to solve the security crisis, and I don't consider this high safety, but for users with bad passwords out of convenience, I hope this can help.`
         ],
     },
     links: {
@@ -185,7 +193,9 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          "My original portfolio. I created this portfolio over the Summer of 2022 after completing my first year of the Information & Computer Systems program at Camosun College.",
+          `I'm proud of its design, having used photos taken from my roadtrip with my father to the Northwest Territories in July.`,
+          `The original project was built using the languages I'd been taught in my first year. Now that I'm in my second year, I've found places to change and improve upon, so with fresh eyes and a new perspective, I improved on the original design utilizing ReactJS and NextJS.`
         ],
     },
     links: {
@@ -205,7 +215,10 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "",
+          `I've been a fan of Pokemon since my infancy but haven't been keeping up with it much in the last decade or so.`,
+          `Over summer vacation I was lucky enough to get to play the Brilliant Diamon / Shining Pearl remakes of the 4th generation games with my partner, but with all the changes and new types over the years, I was having some difficulty remembering which pokemon were which types, and the respective weaknesses.`,
+          `Utilizing the PokeAPI, this web application grabs data for a specific Pokemon and displays both its types, and all its weaknesses by iterating through an object I created mapping strengths and weaknesses.`
+
         ],
     },
     links: {
@@ -217,14 +230,16 @@ export const projects = [
   {
     id: "blackjack",
     title: "Blackjack",
-    tools: "ES6 JavaScript, HTML/CSS",
+    tools: "ES6 JavaScript, JQuery, HTML/CSS",
     sourceImage: [
         "/images/projectImg/Blackjack/Blackjack1.webp",
         "/images/projectImg/Blackjack/Blackjack2.webp",
     ],
     writeUp: {
         summary: [
-          "",
+          `After completion of Web Scripting, I took time over the winter break to create a blackjack game for the browser`,
+          
+          `The game follows the same rules as classic 21, with the dealer having advantage in a push. Some challenges in the project were managing aces in the deck given that they can be high or low. On the top bar display you can keep track of how many cards are in the deck, so users who enjoy counting cards can play higher stakes in pursuit of greater winnings. `
         ],
     },
     links: {
