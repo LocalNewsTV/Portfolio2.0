@@ -67,10 +67,11 @@
   .projectCard { 
     opacity: 60%;
   }
+  .projectCard:hover {cursor: pointer;}
   .projectCard:hover{ 
     opacity: 100%;
     z-index: 2;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-duration: .5s;
   }
 
