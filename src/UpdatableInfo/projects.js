@@ -41,7 +41,7 @@ export const projects = [
     writeUp: {
         summary: [
           "For my Mobile Applications class, the first half of the semester had us creating a simple inventory application using Swift and SwiftUI.",
-          `This class has a steep learning curve as we were thrown into the deep end of Swift by having our first introduction be diving right into the SwiftUI Library.`
+          `This class has a steep learning curve as we were thrown into the deep end of Swift by having our first introduction be diving right into the SwiftUI Library.`,
           `The application could add new inventory items either from built-in icons or images stored on a user's device. Users could edit descriptions of items and toggle which items were their favorites. Data was stored on the device for data retention.`
         ],
     },
