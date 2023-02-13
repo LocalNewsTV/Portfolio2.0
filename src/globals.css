@@ -21,10 +21,9 @@
 
   --container-primary: rgba(56,56,58);
   --container-secondary: rgba(152,152,203);
-  --container-accent: rgb(138, 108, 194);
+  --container-accent: #EDC9B2;
 }
 .sectionTitle .header-primary {color: white !important;}
-.svg { fill: red;}
 .button-primary { 
   background-color: blue;
   color: var(--text-primary) !important;
@@ -55,7 +54,7 @@
 
 .projectCard:hover { 
   background-color: var(--container-accent)!important;
-  color: var(--text-accent)!important;
+  /* color: var(--header-primary)!important; */
 }
 .navLink:hover {color: orange; transition: .4s;}
 span { color: var(--text-accent)}
