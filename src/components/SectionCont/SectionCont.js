@@ -4,7 +4,9 @@ import 'next/image';
 export const SectionCont = ({id = "", background="", title="", ...props}) => {
 
   React.useEffect(()=>{
-    document.getElementById(id).style.backgroundImage = `url('/images/${background}.webp')`;
+    if (background) { 
+      document.getElementById(id).style.backgroundImage = `url('/images/${background}.webp')`;
+    }
   });
 
   return (
