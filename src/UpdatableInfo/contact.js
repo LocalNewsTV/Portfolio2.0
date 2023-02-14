@@ -30,4 +30,10 @@ export const contact = [
       title: "Resume [PDF]",
       icon: "/images/contactImages/resume.svg"
     },
+    {
+      for: "Kofi",
+      link: "https://ko-fi.com/patchoulidev",
+      title: "Support me on Kofi",
+      icon: "images/contactImages/kofi.webp"
+    }
 ]
