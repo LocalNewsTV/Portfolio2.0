@@ -1,7 +1,12 @@
-
+import Image from "next/image"
 export const Logo = ({title="LocalNewsTV"}) => (
   <div className="logo-title">
-      {/* <img src="Logo.png" alt="LocalNewsTV Logo" /> */}
+      <Image 
+      src="images/Logo.png"
+      width={55}
+      height={50}
+      alt={"Logo"}
+      />
     <h1>{title}</h1>
   </div>
 )
