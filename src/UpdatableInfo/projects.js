@@ -26,7 +26,29 @@
 */
 
 export const projects = [
-
+  /////////////
+  {
+    id: "groceryAssistant",
+    title: "Grocery Price Converter",
+    tools: "React Native, Expo, Google Play Console",
+    sourceImage: [
+        "/images/projectImg/GroceryAssistant/GroceryAssistant1.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant2.webp",
+    ],
+    writeUp: {
+        summary: [
+          `A small React Native App I developed to assist in my day to day grocery shopping. Lots of my time at the store is spent comparing prices of product sizes, especially when one product looks cheap, but is deceptively most cost effective.`,
+          `In making this app I got firsthand experience using the Google Play Console, and Expo for developing React Native applications.`
+        ],
+    },
+    links: {
+        demo: "",
+        github: "",
+        legacy: "",
+        download: "https://play.google.com/store/apps/details?id=com.localnewstv.groceryassistant",
+        readmore: "",
+    },
+  },
   /////////////
   {
     id: "swiftinventory",
