@@ -26,7 +26,7 @@ export const contact = [
     },
     { 
       for: "Resume",
-      link:"/resume/resume.pdf",
+      link:"/Resume/Resume.pdf",
       title: "Resume [PDF]",
       icon: "/images/contactImages/resume.svg"
     },
