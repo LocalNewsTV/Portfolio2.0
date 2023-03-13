@@ -17,6 +17,7 @@ export default function Home() {
       <Head>
         <meta name="description" content="Project Website for Matthew Logan, Canadian developer residing in British Columbia" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, React, Next.js, Portfolio, Student, Developer, Canada, Full-stack, British Columbia, Job, Hire, Junior, Front End, Back End, Database, Networking, Java"></meta>
         <link rel="icon" href="/favicon.png" />
         <title>Matthew Logan | LocalNewsTV</title>
       </Head>
