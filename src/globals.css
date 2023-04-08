@@ -7,7 +7,7 @@
   --text-secondary: rgb(30,30,30);
   --text-accent: orange;
 
-  --header-primary: rgb(145, 241, 80);
+  --header-primary: rgb(255,255,255);
   --header-secondary: rgb(154, 106, 243);
   --header-accent: rgb(255, 255, 255); 
 
@@ -20,7 +20,7 @@
   --container-accent-tint: rgba(255,10,50, var(--container-tint-accent));
 
   --container-primary: rgba(56,56,58);
-  --container-secondary: rgba(152,152,203);
+  --container-secondary: rgba(160,160,160);
   --container-accent: #EDC9B2;
 }
 .sectionTitle .header-primary {color: white !important;}

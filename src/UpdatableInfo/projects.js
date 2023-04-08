@@ -26,20 +26,54 @@
 */
 
 export const projects = [
+
+    /////////////
+    {
+      id: "Dollywood",
+      title: "Game Design Final Project",
+      tools: "Unity, C#",
+      sourceImage: [
+          "/images/projectImg/Dollywood/Dollywood1.webp",
+          "/images/projectImg/Dollywood/Dollywood2.webp",
+          "/images/projectImg/Dollywood/Dollywood3.webp",
+          "/images/projectImg/Dollywood/Dollywood4.webp",
+          "/images/projectImg/Dollywood/Dollywood5.webp",
+          "/images/projectImg/Dollywood/Dollywood6.webp",
+          "/images/projectImg/Dollywood/Dollywood7.webp",
+          "/images/projectImg/Dollywood/Dollywood8.webp",
+          "/images/projectImg/Dollywood/Dollywood9.webp"
+      ],
+      writeUp: {
+          summary: [
+            "For my Graphics and Gaming Concepts class, I created a first-person shooter game using Unity. The game consists of multiple levels with increasing difficulty and includes four different weapons for the player to use. There are various pickups throughout the levels that can be collected to gain health or ammunition, as well as multiple enemy types with unique AI behaviors. I spent a lot of time tweaking the game mechanics to ensure a satisfying and engaging experience for the player.",
+            "Overall, the project was a great way for me to put my Unity skills to the test and create a fully realized game from scratch using the skills taught in the course."
+          ]
+      },
+      links: {
+          demo: "",
+          github: "",
+          legacy: "",
+          download: "",
+          readmore: "",
+      },
+    },
   /////////////
   {
     id: "groceryAssistant",
-    title: "Grocery Price Converter",
-    tools: "React Native, Expo, Google Play Console",
+    title: "Grocery Assistant",
+    tools: "React Native, Expo, Google Play Store",
     sourceImage: [
         "/images/projectImg/GroceryAssistant/GroceryAssistant1.webp",
         "/images/projectImg/GroceryAssistant/GroceryAssistant2.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant3.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant4.webp"
     ],
     writeUp: {
-        summary: [
-          `A small React Native App I developed to assist in my day to day grocery shopping. Lots of my time at the store is spent comparing prices of product sizes, especially when one product looks cheap, but is deceptively most cost effective.`,
-          `In making this app I got firsthand experience using the Google Play Console, and Expo for developing React Native applications.`
-        ],
+      summary: [
+        "This is a React Native application for Android that includes a built-in grocery list feature. Users can easily create and manage their grocery lists using the app's intuitive interface.",
+        "One of the standout features of the app is its ability to convert inputs for size, units, package, and price into a standardized unit. This makes it easy for users to compare prices and quantities across different items and brands.",
+        "Overall, this app is a must-have for anyone looking to streamline their grocery shopping and save money in the process."
+      ]
     },
     links: {
         demo: "",
@@ -73,48 +107,6 @@ export const projects = [
   },
   /////////////
   {
-    id: "platformer",
-    title: "Unity Platformer",
-    tools: "C#, Unity",
-    sourceImage: [
-        "/images/projectImg/MiniPlatformer/Platformer1.webp",
-        "/images/projectImg/MiniPlatformer/Platformer2.webp",
-        "/images/projectImg/MiniPlatformer/Platformer3.webp"
-    ],
-    writeUp: {
-        summary: [
-          "A short and simple platformer created in my Gaming and Graphics Concepts course, the original intent was to have four platforms and a double jump mechanic. With enthusiasm and an open schedule, I dove into the simple assignment and expanded on it well beyond its scope. It was a fun experience making small assets with a simple, compact platforming design.",
-        ],
-    },
-    links: {
-        github: "https://github.com/LocalNewsTV/InClass-ICS223",
-        download: "https://drive.google.com/file/d/1_qeUVRPaHvqhCrsbohTwEJnKYOQpGh5Z/view?usp=share_link",
-    },
-  },
-    /////////////
-    {
-      id: "fps",
-      title: "Unity First Person Shooter",
-      tools: "C#, Unity",
-      sourceImage: [
-          "/images/projectImg/fps/fps1.webp",
-          "/images/projectImg/fps/fps2.webp",
-          "/images/projectImg/fps/fps3.webp"
-      ],
-      writeUp: {
-          summary: [
-            "Currently a work in progress in my Gaming and Graphics Concepts course, we are working on Creating a First Person Shooter style game to introduce us to using the Unity Engine",
-            `The game's implementation uses a small map that spawns some enemy characters that wander around using sphere casting to avoid collisions with the walls and fire "lasers" at the player character. The Player character shoots using Raycasting bullets to take down the enemy.`,
-            `Note: You will need to use Alt+F4 to exit.`
-          ],
-      },
-      links: {
-          github: "https://github.com/LocalNewsTV/ICS223-FPS",
-          download: "https://drive.google.com/drive/folders/1ZiRpXBVw27qUyBiwAbNHSr9OrOHHdi8o?usp=share_link",
-      },
-    },
-      /////////////
-  {
     id: "todoList",
     title: "Todo List",
     tools: "MongoDB, ExpressJS, ReactJS, Node",
@@ -125,9 +117,9 @@ export const projects = [
     ],
     writeUp: {
         summary: [
-          "A classic project from a starting developer. I created the to-do list near the end of my semester when I was taking a database management course at Camosun College.",
-
-          `This application utilises the MERN stack in its design, and for its application, I host the build and Express server off my Raspberry Pi at home, which serves as my connection to my MongoDB cluster. The demo provided below doesn't have access to my database, but with some additional coding, I have implemented an "offline" mode for you to use its functionality.`
+          `I created a todo list application utilizing the MERN Stack for its design that can be accessed anywhere on my home network.`,
+          `The App allows all CRUD operations to take place in the browser making the application user friendly, intuitively and quick to adopt`,
+          `Later on I revisited this application for its github hosted version added localStorage functionality so it can be utilized by anybody anywhere with persisting data.` 
         ],
     },
     links: {
@@ -272,47 +264,5 @@ export const projects = [
         legacy: "",
     },
   },
-  /////////////
-  {
-    id: "iCS228Final",
-    title: "ICS228 Final",
-    tools: "JQuery, ES6 JavaScript, HTML/CSS, Bootstrap, FakeStoreAPI",
-    sourceImage: [
-        "/images/projectImg/128Final/128final1.webp",
-        "/images/projectImg/128Final/128final2.webp",
-        "/images/projectImg/128Final/128final3.webp"
-    ],
-    writeUp: {
-        summary: [
-          `Cumulating the skills learned from a semester of Web Scripting, the final project consisted of creating a mobile-responsive web application to simulate an online shopping experience.`,
-          
-          `User information was handled with a form that does client-side regex parsing to ensure accuracy before being sent off. Along with some custom-made products, store inventory is passed in from an API request to the "Fake Store API" and then arranged into cards using Bootstrap.`
-        ],
-    },
-    links: {
-        demo: "https://localnewstv.github.io/128Final-FakeStoreFront",
-        github: "https://github.com/LocalNewsTV/128Final-FakeStoreFront",
-    },
-  },
-  /////////////
-  {
-    id: "",
-    title: "Browser Combat Simulator",
-    tools: "ES6 JavaScript",
-    sourceImage: [
-        "/images/projectImg/CombatSimulator/CombatSimulator1.webp",
-        "/images/projectImg/CombatSimulator/CombatSimulator2.webp"
-    ],
-    writeUp: {
-        summary: [
-          `This is one of the first projects I completed outside of school since starting the ICS programme at Camosun College. I created Browser Combat Simulator over the reading break after learning about ES6 Classes in my Web Scripting Class, and decided to play around with class interactions.`,
 
-          `The purpose of the project was to further my understanding of ES6 classes and inheritance. Nostalgic of earlier eras of video games like Kingdom of Loathing, I created this text adventure where you fight a "Gremelkin" [an archaic term for cat].`
-        ],
-    },
-    links: {
-        demo: "https://localnewstv.github.io/BrowserCombatSimulator",
-        github: "https://github.com/LocalNewsTV/BrowserCombatSimulator",
-    },
-  },
 ]
