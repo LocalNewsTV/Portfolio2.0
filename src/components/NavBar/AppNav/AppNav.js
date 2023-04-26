@@ -15,12 +15,7 @@ export const AppNav = () => {
   React.useEffect(()=>{
     (async () => {
       try{
-        /**
-         * This is a free API Key, you could get your own API key
-         * at the link provided https://www.weatherapi.com/ 
-         */
-        const api = "7d98db344ac643c69ab184637222007";
-        const { data } = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${api}&q=YYJ&aqi=no`)
+        const { data } = await axios.post(`https://localnewstv-todo.onrender.com/api/weather`,{ location: location})
         setWeather(data);
       } catch(ex){
           console.log(ex);
