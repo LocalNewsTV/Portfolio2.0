@@ -15,7 +15,7 @@ export const AppNav = () => {
   React.useEffect(()=>{
     (async () => {
       try{
-        const { data } = await axios.post(`https://localnewstv-todo.onrender.com/api/weather`,{ location: location})
+        const { data } = await axios.post(`https://localnewstv-todo.onrender.com/api/weather`,{ location: "Esquimalt"})
         setWeather(data);
       } catch(ex){
           console.log(ex);
