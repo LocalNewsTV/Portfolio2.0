@@ -3,7 +3,7 @@ export const Hero = () => {
   return (
     <div className={"heroCont"}>
       <Image 
-        src={'images/Hero.png'}
+        src={'/Portfolio2.0/images/Hero.png'}
         width={350}
         height={225}
         alt={"Matthew Logan Logo"}

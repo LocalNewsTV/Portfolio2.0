@@ -4,7 +4,7 @@ import { contact } from "@/UpdatableInfo/contact"
 export const ContactBox = () => {
   const ContactItem = ({title, icon, link}) => (
     <li>
-      {<Image src={icon} alt={title} width={16} height={16} className={"svg"} />}
+      {<Image src={"/Portfolio2.0" + icon} alt={title} width={16} height={16} className={"svg"} />}
       <a href={link}>{title}</a>
     </li>
   )

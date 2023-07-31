@@ -18,7 +18,7 @@ export const Carousel = ({images, setImage, image}) => {
       <div className={"demoImage"}>
         {image < images.length
         ? <Image
-            src={images[image]}
+            src={"/Portfolio2.0" + images[image]}
             height={350}
             width={350}
             alt={"Project image"}

@@ -10,7 +10,7 @@ export const ProjectCard = ({props, setModal}) => {
   return(
     <div className={"projectCard container-secondary"} onClick={showModal.bind(this,props)}>
       <div className={"projectImageCont"}>
-        <Image src={props.sourceImage[0]} alt={props.title + " Image"} height={350} width={350}/>
+        <Image src={"/Portfolio2.0" + props.sourceImage[0]} alt={props.title + " Image"} height={350} width={350}/>
       </div>
       <div className={"contentTitle"}>
       <p className={"font-secondary"}>{props.title}</p>

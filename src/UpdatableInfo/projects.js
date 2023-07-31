@@ -6,9 +6,9 @@
     title: "",
     tools: "",
     sourceImage: [
-        "./images/projectImg//.webp",
-        "./images/projectImg//.webp",
-        "./images/projectImg//.webp"
+        "/images/projectImg//.webp",
+        "/images/projectImg//.webp",
+        "/images/projectImg//.webp"
     ],
     writeUp: {
         summary: [
@@ -33,15 +33,15 @@ export const projects = [
       title: "Game Design Final Project",
       tools: "Unity, C#",
       sourceImage: [
-          "./images/projectImg/Dollywood/Dollywood1.webp",
-          "./images/projectImg/Dollywood/Dollywood2.webp",
-          "./images/projectImg/Dollywood/Dollywood3.webp",
-          "./images/projectImg/Dollywood/Dollywood4.webp",
-          "./images/projectImg/Dollywood/Dollywood5.webp",
-          "./images/projectImg/Dollywood/Dollywood6.webp",
-          "./images/projectImg/Dollywood/Dollywood7.webp",
-          "./images/projectImg/Dollywood/Dollywood8.webp",
-          "./images/projectImg/Dollywood/Dollywood9.webp"
+          "/images/projectImg/Dollywood/Dollywood1.webp",
+          "/images/projectImg/Dollywood/Dollywood2.webp",
+          "/images/projectImg/Dollywood/Dollywood3.webp",
+          "/images/projectImg/Dollywood/Dollywood4.webp",
+          "/images/projectImg/Dollywood/Dollywood5.webp",
+          "/images/projectImg/Dollywood/Dollywood6.webp",
+          "/images/projectImg/Dollywood/Dollywood7.webp",
+          "/images/projectImg/Dollywood/Dollywood8.webp",
+          "/images/projectImg/Dollywood/Dollywood9.webp"
       ],
       writeUp: {
           summary: [
@@ -63,10 +63,10 @@ export const projects = [
     title: "Grocery Assistant",
     tools: "React Native, Expo, Google Play Store",
     sourceImage: [
-        "./images/projectImg/GroceryAssistant/GroceryAssistant1.webp",
-        "./images/projectImg/GroceryAssistant/GroceryAssistant2.webp",
-        "./images/projectImg/GroceryAssistant/GroceryAssistant3.webp",
-        "./images/projectImg/GroceryAssistant/GroceryAssistant4.webp"
+        "/images/projectImg/GroceryAssistant/GroceryAssistant1.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant2.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant3.webp",
+        "/images/projectImg/GroceryAssistant/GroceryAssistant4.webp"
     ],
     writeUp: {
       summary: [
@@ -89,10 +89,10 @@ export const projects = [
     title: "Swift Inventory App",
     tools: "Swift, SwiftUI",
     sourceImage: [
-        "./images/projectImg/SwiftLabOne/SwiftLabOne1.webp",
-        "./images/projectImg/SwiftLabOne/SwiftLabOne2.webp",
-        "./images/projectImg/SwiftLabOne/SwiftLabOne3.webp",
-        "./images/projectImg/SwiftLabOne/SwiftLabOne4.webp"
+        "/images/projectImg/SwiftLabOne/SwiftLabOne1.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne2.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne3.webp",
+        "/images/projectImg/SwiftLabOne/SwiftLabOne4.webp"
     ],
     writeUp: {
         summary: [
@@ -111,9 +111,9 @@ export const projects = [
     title: "Todo List",
     tools: "MongoDB, ExpressJS, ReactJS, Node",
     sourceImage: [
-        "./images/projectImg/TodoList/Todolist1.webp",
-        "./images/projectImg/TodoList/todolist2.webp",
-        "./images/projectImg/TodoList/todolist3.webp"
+        "/images/projectImg/TodoList/Todolist1.webp",
+        "/images/projectImg/TodoList/todolist2.webp",
+        "/images/projectImg/TodoList/todolist3.webp"
     ],
     writeUp: {
         summary: [
@@ -133,9 +133,9 @@ export const projects = [
     title: "Weather Application 2.0",
     tools: "ReactJS, Axios, weatherapi.com",
     sourceImage: [
-        "./images/projectImg/WeatherApp/Weather1.webp",
-        "./images/projectImg/WeatherApp/Weather2.webp",
-        "./images/projectImg/WeatherApp/Weather3.webp"
+        "/images/projectImg/WeatherApp/Weather1.webp",
+        "/images/projectImg/WeatherApp/Weather2.webp",
+        "/images/projectImg/WeatherApp/Weather3.webp"
     ],
     writeUp: {
         summary: [
@@ -156,9 +156,9 @@ export const projects = [
     title: "Chat Client",
     tools: "Java, JavaGUI, NetBeans",
     sourceImage: [
-        "./images/projectImg/ChatClient/ChatClient1.webp",
-        "./images/projectImg/ChatClient/ChatClient2.webp",
-        "./images/projectImg/ChatClient/ChatClient3.webp"
+        "/images/projectImg/ChatClient/ChatClient1.webp",
+        "/images/projectImg/ChatClient/ChatClient2.webp",
+        "/images/projectImg/ChatClient/ChatClient3.webp"
     ],
     writeUp: {
         summary: [
@@ -178,9 +178,9 @@ export const projects = [
     title: "Password Hasher 2.0",
     tools: "ReactJS, ES6 JavaScript, Create-react-app",
     sourceImage: [
-        "./images/projectImg/PasswordHasher/PasswordHasherNew1.webp",
-        "./images/projectImg/PasswordHasher/PasswordHasherNew2.webp",
-        "./images/projectImg/PasswordHasher/PasswordHasherOld.webp"
+        "/images/projectImg/PasswordHasher/PasswordHasherNew1.webp",
+        "/images/projectImg/PasswordHasher/PasswordHasherNew2.webp",
+        "/images/projectImg/PasswordHasher/PasswordHasherOld.webp"
     ],
     writeUp: {
         summary: [
@@ -201,9 +201,9 @@ export const projects = [
     title: "Portfolio 1.0",
     tools: "ES6 JavaScript, HTML/CSS, JQuery",
     sourceImage: [
-        "./images/projectImg/PortfolioOld/PortfolioOld1.webp",
-        "./images/projectImg/PortfolioOld/PortfolioOld2.webp",
-        "./images/projectImg/PortfolioOld/PortfolioOld3.webp"
+        "/images/projectImg/PortfolioOld/PortfolioOld1.webp",
+        "/images/projectImg/PortfolioOld/PortfolioOld2.webp",
+        "/images/projectImg/PortfolioOld/PortfolioOld3.webp"
     ],
     writeUp: {
         summary: [
@@ -223,9 +223,9 @@ export const projects = [
     title: "Pokemon Assistant",
     tools: "JQuery, ES6 JavaScript, CSS/HTML, PokeAPI",
     sourceImage: [
-        "./images/projectImg/PokemonWeakness/PokemonWeakness1.webp",
-        "./images/projectImg/PokemonWeakness/PokemonWeakness2.webp",
-        "./images/projectImg/PokemonWeakness/PokemonWeakness3.webp"
+        "/images/projectImg/PokemonWeakness/PokemonWeakness1.webp",
+        "/images/projectImg/PokemonWeakness/PokemonWeakness2.webp",
+        "/images/projectImg/PokemonWeakness/PokemonWeakness3.webp"
     ],
     writeUp: {
         summary: [
@@ -246,8 +246,8 @@ export const projects = [
     title: "Blackjack",
     tools: "ES6 JavaScript, JQuery, HTML/CSS",
     sourceImage: [
-        "./images/projectImg/Blackjack/Blackjack1.webp",
-        "./images/projectImg/Blackjack/Blackjack2.webp",
+        "/images/projectImg/Blackjack/Blackjack1.webp",
+        "/images/projectImg/Blackjack/Blackjack2.webp",
     ],
     writeUp: {
         summary: [
