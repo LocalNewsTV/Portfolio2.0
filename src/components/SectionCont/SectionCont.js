@@ -5,7 +5,7 @@ export const SectionCont = ({id = "", background="", title="", ...props}) => {
 
   React.useEffect(()=>{
     if (background) { 
-      document.getElementById(id).style.backgroundImage = `url('/images/${background}.webp')`;
+      document.getElementById(id).style.backgroundImage = `url('/Portfolio2.0/images/${background}.webp')`;
     }
   });
 
