@@ -4,7 +4,7 @@ const details = {
     width: 764,
     scale: .4,
     alt: "Matthew Logan",
-    src: "/images/myself.webp",
+    src: "./images/myself.webp",
     caption: "Matthew Logan"
   },
   writeup: {
